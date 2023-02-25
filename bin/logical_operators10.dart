@@ -8,4 +8,11 @@ Given integer a,  check the following statement "The integer is two-digit number
         bool: answer
 */
 
-void main() {}
+bool func(int a) {
+  bool answer = a > 9 && a < 100;
+  return answer;
+}
+
+void main() {
+  print(func(4));
+}
