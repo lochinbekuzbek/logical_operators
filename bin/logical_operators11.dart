@@ -8,4 +8,9 @@ Given integer a,  check the following statement "The integer is three-digit numb
         bool: answer
 */
 
+bool func(int a) {
+  bool answer= a > 99 && a< 1000;
+  return answer;
+}
+
 void main() {}
