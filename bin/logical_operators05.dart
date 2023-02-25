@@ -9,4 +9,12 @@ Given two integers a, b,  check the following statement "Each of the numbers 'a'
         bool: answer
 */
 
-void main() {}
+bool func(int a, int b) {
+  bool answer = a % 2 != 0 && b % 2 != 0;
+  return answer;
+  
+}
+
+void main() {
+  print(func(3, 5));
+}
